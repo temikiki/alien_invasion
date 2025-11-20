@@ -92,6 +92,7 @@ class AlienInvasion:
         else:
             self.game_active = False
             pygame.mouse.set_visible(True)
+            self.play_button = Button(self, "Play Again")
 
     # def _update_aliens(self):
     #     """update the position of all aliens in the fleet"""
